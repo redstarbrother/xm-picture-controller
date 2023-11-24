@@ -8,8 +8,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, cors_allowed_origins='*')
 
-# app.config['SECRET_KEY'] = 'some-super-secret-key'
-# app.config['DEFAULT_PARSERS'] = [
+# app.db['SECRET_KEY'] = 'some-super-secret-key'
+# app.db['DEFAULT_PARSERS'] = [
 #     'flask.ext.api.parsers.JSONParser',
 #     'flask.ext.api.parsers.URLEncodedParser',
 #     'flask.ext.api.parsers.FormParser',
